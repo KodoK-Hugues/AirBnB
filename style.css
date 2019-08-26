@@ -36,11 +36,14 @@
     height: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 50px;
 }
 .copyBackground p {
     padding-left: 10px;
     padding-top: 50px;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: lighter;
+    color: lightgray;
 }
 
 .boutons {
@@ -75,7 +78,7 @@
   }
 
   .boutonAcceuillir button{
-    background-color: rgb(22, 4, 3);
+    background-color: transparent;
     border-color: rgb(255, 255, 255);
     border-width: 1px;
     border-radius: 5px;
@@ -101,58 +104,94 @@
 
 
 
+.reserveTitle {
+    margin-left: 300px;
+}
 
 
 
+.chercher {
+    margin-top: 50px;
+}
 
 
 .reserve {
-    background-color: rgb(80, 202, 32);
-    width: 65%;
-    margin-left: auto;
+   /* background-color: rgb(80, 202, 32);*/
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
+
+
 }
 
 .feedback{
     background-color: brown;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
 }
 
 .voyage{
     background-color: darkgrey;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
 }
 
 .offer{
     background-color: darkviolet;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
 }
 
 .availability{
     background-color: gold;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
 }
 
 
 .links {
     background-color: darkorange;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
 }
 
 
 .footer {
     background-color: forestgreen;
-    width: 65%;
-    margin-left: auto;
+    width: 100%;
+    margin-left: 300px;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 50px;
 }

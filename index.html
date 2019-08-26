@@ -17,48 +17,81 @@
     <div class="global">
 
         <section class="intro">
-                <i class="fab fa-airbnb"></i>
-                <H1>
-                    <bold>Réservez un séjour. Accueillez des voyageurs.<br /> Directement sur Airbnb.</bold>
-                </H1>
-                <div class="boutons">
-                    <div class="boutonExplorer">
-                        <p>Trouvez des logements et des activités</p>
-                        <a href="http://www.google.be"><button type="button">EXPLORER</button></a>
-                    </div>
+            <i class="fab fa-airbnb"></i>
+            <H1>
+                <bold>Réservez un séjour. Accueillez des voyageurs.<br /> Directement sur Airbnb.</bold>
+            </H1>
+            <div class="boutons">
+                <div class="boutonExplorer">
+                    <p>Trouvez des logements et des activités</p>
+                    <a href="http://www.google.be"><button type="button">EXPLORER</button></a>
+                </div>
 
-                    <div class="boutonAcceuillir">
-                        <p>Réservez un séjour</p>
-                        <a href="http:://www.github.com"><button type="button">Acceuillir</button></a>
-                    </div>
+                <div class="boutonAcceuillir">
+                    <p>Réservez un séjour</p>
+                    <a href="http:://www.github.com"><button type="button">Acceuillir</button></a>
                 </div>
-                <div class="copyBackground">
-                    <p>Photo by LoboStudio Hamburg on Unsplash</p>
-                </div>
-        </section>
-        <section class="reserve">
-            <p>Réservez des logements et des expériences uniques</p>
-            <table></table>
+            </div>
+            <div class="copyBackground">
+                <p>Photo by LoboStudio Hamburg on Unsplash</p>
+            </div>
         </section>
         
-        <div class="feedback">
-            <p>feedback</p>
+        <div class="reserveTitle">
+                <h1>Réservez des logements et des expériences uniques</h1>
         </div>
-        <div class="voyage">
-            <p>voyage</p>
-        </div>
-        <div class="offer">
-            <p>offer</p>
-        </div>
-        <div class="availability">
-            <p>availability</p>
-        </div>
-        <div class="links">
-            <p>links</p>
-        </div>
-        <div class="footer">
-            <p>footer</p>
-        </div>
+
+        <section class="reserve">
+            <div class="where">
+                <p>Où</p>
+                <input name="partout" type="text" value="partout">
+            </div>
+            <div class="date">
+                <p>Arrivée - départ</p>
+                <input name="arrival" type="date">
+                <input name="departure" type="date">
+            </div>
+            <div class="person">
+                <p>Voyageur</p>
+                <input list="numberOfPersons" value="personne">
+                <datalist id="numberOfPersons">
+                    <option value="adulte">
+                    <option value="enfants">
+                    <option value="bébés">
+                </datalist>
+                <input type="number" name="points" min="0" max="10" step="1" value="1">
+            </div>
+            <div class="chercher">
+                <input name="button" type="button" value="chercher">
+            </div>
+
+    </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="feedback">
+        <p>feedback</p>
+    </section>
+    <section class="voyage">
+        <p>voyage</p>
+    </section>
+    <section class="offer">
+        <p>offer</p>
+    </section>
+    <section class="availability">
+        <p>availability</p>
+    </section>
+    <section class="links">
+        <p>links</p>
+    </section>
+    <section class="footer">
+        <p>footer</p>
+    </section>
     </div>
 
 
