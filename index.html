@@ -19,7 +19,7 @@
         <section class="intro">
             <i class="fab fa-airbnb"></i>
             <H1>
-                <bold>Réservez un séjour. Accueillez des voyageurs.<br /> Directement sur Airbnb.</bold>
+                <bold>Réservez un séjour. Accueillez des voyageurs. Directement sur Airbnb.</bold>
             </H1>
             <div class="boutons">
                 <div class="boutonExplorer">
@@ -43,103 +43,181 @@
 
         <section class="reserve">
             <div class="where">
-                <p>Où</p>
-                <input name="partout" type="text" value="partout">
+                <p>OÙ</p>
+                <input name="partout" type="text" value="Partout">
             </div>
             <div class="date">
-                <p>Arrivée - départ</p>
+                <p>ARRIVÉE - DÉPART</p>
                 <input name="arrival" type="date">
                 <input name="departure" type="date">
             </div>
             <div class="person">
-                <p>Voyageur</p>
-                <input list="numberOfPersons" value="personne">
-                <datalist id="numberOfPersons">
-                    <option value="adulte">
-                    <option value="enfants">
-                    <option value="bébés">
-                </datalist>
+                <p>VOYAGEUR</p>
+                <select class="numberOfPersons" value="personne">
+                    <option value="adulte">Adulte</option>
+                    <option value="enfants">Enfants</option>
+                    <option value="bébés">Bébés</option>
+                </select>
             </div>
             <div class="chercher">
-                <input name="bouton" type="button" value="chercher">
+                <p><br/></p>
+                   <input name="button" class="search" type="button" value="chercher">
             </div>
-
-    </div>
-    </section>
+        </section>
 
 
 
 
     <section class="feedback">
         <div class="introFeedback">
-            <h1>Belgique : ce que les autres voyageurs ont pensé de leur logement</h1>
-            <img src="logo/etoile.png" alt="logo étoile">
-            <p>Les logements de Belgique ont obtenu 4.6 étoiles sur 5 et plus de 950.000 commentaires</p>
+            <div class="logo">
+                <img src="logo/etoile.png" alt="logo étoile">
+            </div>
+            <div class="titreFeedback">
+                <h1>Belgique : ce que les autres voyageurs ont pensé de leur logement</h1>
+                <p>Les logements de Belgique ont obtenu <strong>4.6 étoiles</strong> sur 5 et <strong>plus de 950.000
+                        commentaires</strong></p>
+            </div>
         </div>
-
-        <div class="logement1">
-            <img src="pictures/logement/andre-francois-mckenzie-on-unsplash.jpg" alt="description de la photo">
-            <img src="logo/stars.png" alt="">
-            <p>Bernard nous a réservé un merveilleux accueil, avec beaucoup de chaleur et de cordialité. Il n'hésite pas à prendre du temps pour donner ... </p>
-            <img src="pictures/portrait/bruce-dixon-on-unsplash.png" alt="portrait">
-            <H5>Sandrine<br />France</H5>
-        </div>
-
-        <div class="logement2">
-            <img src="pictures/logement/daniil-silantev-nBuiLbz_j4A-unsplash.jpg" alt="description de la photo">
-            <img src="logo/stars.png" alt="">
-            <p>Nous avons apprécié l'accueil de Chantal et l'aménagement très agréable du logement, grande salle de bains et
-                jolie chambre. Seul ... </p>
-            <img src="pictures/portrait/joe-gardner-on-unsplash.png" alt="portrait">
-            <H5>Christine<br />France</H5>
-        </div>
-        <div class="logement3">
-                <img src="pictures/logement/deborah-cortelazzi-on-unsplash.jpg" alt="description de la photo">
-                <img src="logo/stars.png" alt="">
-                <p>Très bel appartement, très clair avec beaucoup de fenêtres. J'ai très bien dormi et je l'ai trouvé tout à fait conforme à la description ... </p>
-                <img src="pictures/portrait/sage-on-unsplash.png" alt="portrait">
-                <H5>Marie<br />Belgique</H5>
+        <div class="logementContainer">
+            <div class="logement1">
+                <img class="photo1" src="pictures/logement/andre-francois-mckenzie-on-unsplash.jpg"
+                    alt="description de la photo">
+                <img class="stars1" src="logo/stars.png" alt="">
+                <p>Bernard nous a réservé un merveilleux accueil, avec beaucoup de chaleur et de cordialité. Il n'hésite pas à prendre du temps pour donner ... </p>
+                <div class="portraitContainer1">
+                    <img class="portrait1" src="pictures/portrait/bruce-dixon-on-unsplash.png" alt="portrait">
+                    <H5>Sandrine<br />France</H5>
+                </div>
             </div>
 
+            <div class="logement2">
+                <img class="photo2" src="pictures/logement/daniil-silantev-nBuiLbz_j4A-unsplash.jpg"
+                    alt="description de la photo">
+                <img class="stars2" src="logo/stars.png" alt="">
+                <p>Nous avons apprécié l'accueil de Chantal et l'aménagement très agréable du logement, grande salle de
+                    bains et
+                    jolie chambre. Seul ... </p>
+                    <div class="portraitContainer2">
+                <img class="portrait2" src="pictures/portrait/joe-gardner-on-unsplash.png" alt="portrait">
+                <H5>Christine<br />France</H5>
+                </div>
+            </div>
+
+            <div class="logement3">
+                <img class="photo3" src="pictures/logement/deborah-cortelazzi-on-unsplash.jpg"
+                    alt="description de la photo">
+                <img class="stars3" src="logo/stars.png" alt="">
+                <p>Très bel appartement, très clair avec beaucoup de fenêtres. J'ai très bien dormi et je l'ai trouvé
+                    tout à
+                    fait conforme à la description ... </p>
+                    <div class="portraitContainer3">
+                <img class="portrait3" src="pictures/portrait/sage-on-unsplash.png" alt="portrait">
+                <H5>Marie<br />Belgique</H5>
+            </div>
+            </div>
+        </div>
 
     </section>
 
-
-
-
-
-
-
-
-
-
+    <!--section Voyager avec airRnB*/-->
 
     <section class="voyage">
-
-        <H1>Voyager avec Airbnb</H1>
-
-        <div class="Assistance">
-            <img src="logo/heart.png"  alt="image vectiorelle représentant un coeur">
-            <p><H3>Assistance utilisateurs 24h/24</H3> <br/>Nous sommes là pour vous jour et nuit. Parlez à notre équipe d'assistance où que vous soyez et à toute heure.</p>
+        <div class="voyageTitle">
+            <H1>Voyager avec Airbnb</H1>
+            <hr>
         </div>
+        <div class="voyageContenu">
+            <div class="Assistance">
+                <img src="logo/heart.png" alt="image vectiorelle représentant un coeur">
+                <p>
+                    <H3>Assistance utilisateurs 24h/24</H3>Nous sommes là pour vous jour et nuit. Parlez à notre
+                    équipe d'assistance où que vous soyez et à toute heure.
+                </p>
+            </div>
 
-        <div class="Charte">
+            <div class="Charte">
                 <img src="logo/house.png" alt="image vectiorelle représentant une maison">
-                <p><H3>Charte d'hospitalité générale</H3> <br/>Les voyageurs évaluent leurs hôtes après chaque voyage. Tous les hôtes doivent obtenir une évaluation minimale et se conformer à notre charte d'hospitalité pour rester sur Airbnb.</p>
-        </div>
-        <div class="5Etoiles">
+                <p>
+                    <H3>Charte d'hospitalité générale</H3>Les voyageurs évaluent leurs hôtes après chaque voyage.
+                    Tous les hôtes doivent obtenir une évaluation minimale et se conformer à notre charte d'hospitalité
+                    pour
+                    rester sur Airbnb.
+                </p>
+            </div>
+            <div class="Etoiles">
                 <img src="logo/Human-Heart.png" alt="image vectiorelle représentant une silhouette et un coeur">
-                <p><H3>Hôtes 5 étoiles</H3> <br/>Entre les draps toujours frais et les meilleures recommandations du quartier, l'hospitalité est une seconde nature chez les hôtes Airbnb.</p>
+                <p>
+                    <H3>Hôtes 5 étoiles</H3>Entre les draps toujours frais et les meilleures recommandations du
+                    quartier, l'hospitalité est une seconde nature chez les hôtes Airbnb.
+                </p>
+            </div>
         </div>
-
-
-
-
-
     </section>
+
+    <!-- Fin section Voyager avec AirBnB-->
+
+    <!-- Début de la section: Les offres-->
     <section class="offer">
-        <p>offer</p>
+        <div class="reservenow">
+            <h1>Réservé à l'instant en Belgique</h1>
+        </div>
+        <div class="offreGlobal">
+            <div class="offreA">
+                <img src="pictures/logement/drew-coffman-on-unsplash.jpg" alt="description de la photo">
+            
+                <h6>MICROMAISON . OVERIJSE</h6>
+                <h5>Sarabande Genval jacuzzi lake</H5>
+                <p>€110/nuit</p>
+                <div class="cotation1">
+                    <img src="logo/stars.png" alt="">
+                     <p>490 . Superhost</p>
+                </div>
+            </div>
+            <div class="offreB">
+                <img src="pictures/logement/Photo by iAlicante Mediterranean Homes on Unsplash.jpg" alt="description de la photo">
+            
+                <h6>LOGEMETN ENTIER . IXELLES</h6>
+                <p>Saint-Boniface Rooftop</p>
+                <p>€60/nuit</p>
+                <div class="cotation2">
+                    <img src="logo/stars.png" alt="">
+                    <p>670 . Superhost</p>
+                </div>
+            </div>
+            <div class="offreC">
+                <img src="pictures/logement/roberto-nickson-tleCJiDOri0-unsplash.jpg" alt="description de la photo">
+                <h6>LOGEMENT ENTIER . BRUXELLES</h6>
+                <p>Voyez Bruxelles comme nous l'aimons!</p>
+                <p>€50/nuit</p>
+                <div class="cotation3">
+                    <img src="logo/stars.png" alt="">
+                    <p>450 . Superhost</p>
+                </div>
+            </div>
+            <div class="offreD">
+                <img src="pictures/logement/roberto-nickson-tleCJiDOri0-unsplash.jpg" alt="description de la photo">
+                <h6>VILLA . ANVERS</h6>
+                <p>CHIC et CHOC</p>
+                <p>€1200/nuit</p>
+                <div class="cotation4">
+                    <img src="logo/stars.png" alt="">
+                    <p>650 . Superhost</p>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     </section>
+
+    <!--Fin de la section: Les offres-->
     <section class="availability">
         <p>availability</p>
     </section>

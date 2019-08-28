@@ -1,28 +1,29 @@
-/*@media only screen and (max-width: 400px) {
-   .intro{
-       background-color: hotpink;
-    }
-}*/
+ body {
+color: rgb(71, 71, 71);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .fab{
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 20px; 
     font-size: 40px;
 }
 
 .global{
-    font-family: 'Open Sans', sans-serif;
+
     display: flex;
     flex-direction: column;
 
 }
 
 .intro h1 {
-    font-size: 2em;
+
+    font-size: 2.5em;
     margin-left: 15%;
     margin-top: 30px;
     font-style: inherit;
+    width: 780px;
 }
 
 
@@ -39,8 +40,8 @@
     padding-left: 50px;
 }
 .copyBackground p {
-    padding-left: 10px;
-    padding-top: 50px;
+
+    padding-top: 35px;
     font-size: 8px;
     font-weight: lighter;
     color: lightgray;
@@ -52,7 +53,7 @@
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+
 }
 
 .boutonExplorer button {
@@ -60,6 +61,7 @@
     border-color: rgb(22, 4, 3);
     border-width: 1px;
     border-radius: 5px;
+    border: none;
     color: rgb(22, 4, 3);
     padding-left: 147px;
     padding-right:147px;
@@ -71,10 +73,13 @@
     font-size: 16px;
     font-weight: bolder;
     cursor: pointer;
+    margin-right:50px;
+    margin-left:75px;
   }
 
   .boutonExplorer p{
       font-size: 20px;
+      margin-left:75px;
   }
 
   .boutonAcceuillir button{
@@ -105,112 +110,393 @@
 
 
 .reserveTitle {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: -30px;
     margin-left: 300px;
 }
 
-
-
-.chercher {
-    margin-top: 50px;
-
+.reserve p {
+    margin-bottom: -5px;
 }
-/*
+
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 14px 20px;
+    margin-right:10px;
+    margin-top:10px;
     box-sizing: border-box;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius:3px;
   }
 input[type=date] {
-    width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-right:-6px;
+    margin-top:10px;
     box-sizing: border-box;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius:3px;
   }
+.person {
+    margin-left: 15px;
+}
 
-input[type=list] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+.numberOfPersons {
+    line-height: 50 px;
+    padding: 13px 20px;
+    margin: 10px 0;
     box-sizing: border-box;
-    border: 3px solid #ccc;
-  }
+    border: 1px solid #ccc;
+    border-radius:3px;
+    background-color: white;
+}  
 
-input[type=button] {
-    width: 100%;
-    padding: 12px 20px; 
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #ccc;
-}*/
-
-
-
-
-
-
-
-
-
+.search {
+    padding: 10px 20px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #FF5A5F;
+    font-weight: bolder;
+    color:white;
+    font-size: 1.1em;
+}
 
 
-
-
-
-
-
-
-
-
-
+/* Réservez des logements et des expériences uniques*/
 
 .reserve {
    /* background-color: rgb(80, 202, 32);*/
     width: 100%;
-    margin-left: 300px;
+    height: 200px;
+    margin-left: 255px;
     margin-right: auto;
     display: flex;
     flex-direction: row;
-    height: 200px;
     padding-left: 50px;
+}
+
+/* section Belgique : ce que les autres voyageurs ont pensé de leur logement*/
+
+.feedback {
+    display: flex;
+    flex-direction:column;
+    color: rgb(57, 58, 58);
+    width: 1080px;
+    height: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.introFeedback {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.titreFeedback h1 {
+    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
+}
+.titreFeedback p {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logo img {
+    margin-top: 60px;
+    margin-left: 10%;
+    width: 25px;
+    height: auto;
+}
+
+.logementContainer {
+    display: flex;
+    flex-direction: row;
+    width: 1080px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* DÉBUT LOGEMENT 1*/
+.logement1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left::10px;
+}
+
+.logement1 p{
+    padding-right: 15px;
 
 
 }
-
-.feedback{
-    background-color: brown;
+.photo1{
     width: 100%;
-    margin-left: 300px;
-    margin-right: auto;
+    height: auto;
+}
+
+.stars1{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 16px;
+}
+
+.portraitContainer1 {
     display: flex;
     flex-direction: row;
-    height: 200px;
-    padding-left: 50px;
+    align-items: center;
 }
+
+.portraitContainer1 h5 {
+    margin-left: 30px;
+
+}
+.portrait1{
+    width: 48px;
+    height: 48px;
+}
+/*Fin logement 1*/
+
+/* DÉBUT LOGEMENT 2*/
+.logement2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left::10px;
+}
+
+.logement2 p{
+    padding-right: 15px;
+
+
+}
+.photo2{
+    width: 100%;
+    height: auto;
+}
+
+.stars2{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 16px;
+}
+
+.portraitContainer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portraitContainer2 h5 {
+    margin-left: 30px;
+
+}
+.portrait2{
+    width: 48px;
+    height: 48px;
+}
+/*Fin logement 2*/
+
+/* DÉBUT LOGEMENT 3*/
+.logement3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left::10px;
+}
+
+.logement3 p{
+    padding-right: 15px;
+
+
+}
+.photo3{
+    width: 100%;
+    height: auto;
+}
+
+.stars3{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 16px;
+}
+
+.portraitContainer3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portraitContainer3 h5 {
+    margin-left: 30px;
+
+}
+.portrait3{
+    width: 48px;
+    height: 48px;
+}
+/*Fin logement 3*/
+
+
+/* section Voyager avec airRnB*/
 
 .voyage{
-    background-color: darkgrey;
-    width: 100%;
-    margin-left: 300px;
-    margin-right: auto;
     display: flex;
-    flex-direction: row;
-    height: 200px;
-    padding-left: 50px;
+    flex-direction: column;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
 }
 
-.offer{
-    background-color: darkviolet;
-    width: 100%;
-    margin-left: 300px;
-    margin-right: auto;
+.voyageTitle H1{
+    font-size: 24px;       
+}
+
+
+.voyageContenu{
+    margin-top:25px;
     display: flex;
     flex-direction: row;
-    height: 200px;
+    justify-content: space-between;
+}
+
+/* FIN section Voyager avec airBnB*/
+
+/* Début section Assistance*/
+
+.Assistance {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.Assistance img {
+    width: 35px;
+    height:35px;
+}
+.Assistance p {
+    font-size: 14px;
+}
+.Assistance H3 {
+    font-size: 16px;
+}
+/* Fin section Assistance*/
+/* Début section Charte*/
+.Charte {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.Charte img {
+    width: 35px;
+    height:35px;
+}
+.Charte p {
+    font-size: 14px;
+}
+.Charte H3 {
+    font-size: 16px;
+}
+/* Fin section Charte*/
+
+/* Début section Etoiles*/
+.Etoiles {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.Etoiles img {
+    width: 35px;
+    height:35px;
+}
+.Etoiles p {
+    font-size: 14px;
+}
+.Etoiles H3 {
+    font-size: 16px;
+}
+/* Fin section Etoiles*/
+
+
+/*Début de la section: Les offres*/
+
+.offer{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
     padding-left: 50px;
 }
+.offreGlobal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offreA {
+    width:246px;
+
+}
+
+.offreA > img {
+    width: 246px;
+    height: auto;
+    margin-bottom: -15px;
+}
+
+.offreA > H6 {
+    font-size: 12px;
+    color: grey;
+}
+
+.offreA > H5 {
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.cotation1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cotation1 > img {
+    margin-right:15px;
+    width: 50px;
+    height: 10px;
+}
+
+.offreB > img {
+    width: 246px;
+    height: auto;
+}
+
+.offreC > img {
+    width: 246px;
+    height: auto;
+}
+
+.offreD > img {
+    width: 246px;
+    height: auto;
+}
+
+/*Fin de la section: Les offres*/
+
 
 .availability{
     background-color: gold;
