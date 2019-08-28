@@ -223,8 +223,8 @@ input[type=date] {
     margin-left: auto;
     margin-right: auto;
 }
-/* DÉBUT LOGEMENT 1*/
-.logement1 {
+/* DÉBUT LOGEMENT */
+.logement {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -232,123 +232,39 @@ input[type=date] {
     padding-left::10px;
 }
 
-.logement1 p{
+.logement p{
     padding-right: 15px;
 
 
 }
-.photo1{
+.photo{
     width: 100%;
     height: auto;
 }
 
-.stars1{
+.stars{
     padding-top: 10px;
     padding-left: 10px;
     width: 100px;
     height: 16px;
 }
 
-.portraitContainer1 {
+.portraitContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.portraitContainer1 h5 {
+.portraitContainer h5 {
     margin-left: 30px;
 
 }
-.portrait1{
+.portrait{
     width: 48px;
     height: 48px;
 }
-/*Fin logement 1*/
 
-/* DÉBUT LOGEMENT 2*/
-.logement2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 20px;
-    padding-left::10px;
-}
-
-.logement2 p{
-    padding-right: 15px;
-
-
-}
-.photo2{
-    width: 100%;
-    height: auto;
-}
-
-.stars2{
-    padding-top: 10px;
-    padding-left: 10px;
-    width: 100px;
-    height: 16px;
-}
-
-.portraitContainer2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.portraitContainer2 h5 {
-    margin-left: 30px;
-
-}
-.portrait2{
-    width: 48px;
-    height: 48px;
-}
-/*Fin logement 2*/
-
-/* DÉBUT LOGEMENT 3*/
-.logement3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 20px;
-    padding-left::10px;
-}
-
-.logement3 p{
-    padding-right: 15px;
-
-
-}
-.photo3{
-    width: 100%;
-    height: auto;
-}
-
-.stars3{
-    padding-top: 10px;
-    padding-left: 10px;
-    width: 100px;
-    height: 16px;
-}
-
-.portraitContainer3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.portraitContainer3 h5 {
-    margin-left: 30px;
-
-}
-.portrait3{
-    width: 48px;
-    height: 48px;
-}
-/*Fin logement 3*/
-
+/*Fin section logement*/
 
 /* section Voyager avec airRnB*/
 
@@ -438,7 +354,7 @@ input[type=date] {
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 500px;
     padding-left: 50px;
 }
 .offreGlobal {
@@ -447,80 +363,100 @@ input[type=date] {
     justify-content: space-between;
 }
 
-.offreA {
+.offre {
     width:246px;
 
 }
 
-.offreA > img {
+.offre > img {
     width: 246px;
     height: auto;
     margin-bottom: -15px;
 }
 
-.offreA > H6 {
+.offre > H6 {
     font-size: 12px;
     color: grey;
 }
 
-.offreA > H5 {
+.offre > H5 {
     margin-top: -15px;
     font-size: 18px;
 }
 
-.cotation1 {
+.cotation {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
-.cotation1 > img {
+.cotation > img {
     margin-right:15px;
     width: 50px;
     height: 10px;
 }
-
-.offreB > img {
-    width: 246px;
-    height: auto;
-}
-
-.offreC > img {
-    width: 246px;
-    height: auto;
-}
-
-.offreD > img {
-    width: 246px;
-    height: auto;
+.cinqCents a{
+    text-decoration: none;
+    color: #008489;
 }
 
 /*Fin de la section: Les offres*/
 
-
+/*Début de la section Quand voyagez vous?*/
 .availability{
-    background-color: gold;
-    width: 100%;
-    margin-left: 300px;
+    width: 1080px;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 200px;
     padding-left: 50px;
 }
 
+.ajout h2{
+    margin-bottom: -20px;
+}
+.ajout a{
+    text-decoration: none; 
+    background-color: #008489;
+    color: white;
+    padding: 10px;
+    border-radius:3px;
+}
 
+hr {
+    margin-top: 25px;
+    border-color: rgb(218, 218, 218);
+    border-top:1px;
+}
+
+/*Fin de la section Quand voyagez vous?*/
+
+/*Début de la section LIENS*/
 .links {
-    background-color: darkorange;
-    width: 100%;
-    margin-left: 300px;
+    width: 1080px;
+    margin-left: auto;
     margin-right: auto;
     padding-left: 50px;
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 300px;
+}
+.liens >ul>a {
+    text-decoration: none;
+    color: #303030;
+
+}
+.liens li{
+    line-height:nomal;
+}
+.social > ul > a {
+    text-decoration: none;
+    color: #303030;
 }
 
+
+/*Fin de la section LIENS*/
 
 .footer {
     background-color: forestgreen;
