@@ -14,14 +14,11 @@
     background-image: url(pictures/paysage.jpg);
     background-size: auto !important;
     color: rgb(255, 255, 255);
-    width: 100% !important;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 .intro h1 {
     font-size: 2.5em;
     margin-left: 0% !important;
-    width: 100% !important;
 }
 .boutons {
     width: 100% !important;
@@ -50,7 +47,7 @@
     margin-left:0% !important;
   }
   .boutonExplorer p {
-    width: 100% !important;
+    width: 50% !important;
     font-size: 1.2em;
     margin-left: 0% !important;
     margin-bottom: 2%;
@@ -93,17 +90,16 @@
 
 /* Début de la partie Réservation*/
 .reserve {
-    width: 100% !important;
-    margin-left: auto;
-    margin-right: auto;
+    width: 65% !important;
     display: flex;
     flex-direction: column !important;
+    padding-left: 8% !important;
  }
 .reserveTitle {
     font-size: 1em;
     margin-top: 10px;
     margin-bottom: 0px !important;
-    width: 100% !important;
+    width: 85% !important;
     margin-left: auto;
     margin-right: auto;
     height: 25% !important;
@@ -128,21 +124,24 @@ input[type=date] {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius:3px;
+    background-color: white !important;
   }
 .person {
     margin-top:0.6%;
     margin-left: 0% !important;
 }
 .numberOfPersons {
-    line-height: 50 px;
-    padding: 13px 20px;
-    margin: 10px 0;
-    box-sizing: border-box;
+    width: 150px;
+}
+.numberOfPersons select{
+    width: 150px;
+    height: 43px;
+    margin-top:15px;
     border: 1px solid #ccc;
-    border-radius:3px;
     background-color: white;
-}  
-.search {
+}
+.search a{
+    text-decoration: none;
     padding-top: 8%;
     padding-bottom: 7%;
     padding-left: 25% !important;
@@ -157,6 +156,10 @@ input[type=date] {
     color: white;
     font-size: 1.1em;
 }
+
+.search p{
+    padding-bottom: 5px !important;
+}
 /*Fin de la partie Réservation*/
 
 
@@ -166,9 +169,9 @@ input[type=date] {
     display: flex;
     flex-direction:column;
     color: rgb(57, 58, 58);
-    width: 100% !important;
+    width: 84% !important;
     height: 100% !important;
-    margin-left: 0% !important;
+    margin-left: -9% !important;
     margin-right: 0% !important;
     margin-bottom: 3% !important;
     background-color: rgb(255, 255, 255);
@@ -179,10 +182,9 @@ input[type=date] {
     background-color: rgb(255, 255, 255);
 }
 
-
 .titreFeedback h1 {
     background-color: rgb(255, 255, 255);
-    margin-left: -25px;
+    margin-left: -10px !important;
 }
 .titreFeedback p {
     background-color: rgb(255, 255, 255);
@@ -191,7 +193,7 @@ input[type=date] {
 }
 
 .logo img {
-    margin-top: 60px;
+    margin-top: 125px !important;
     margin-left: 10%;
     width: 25px;
     height: auto;
@@ -202,7 +204,7 @@ input[type=date] {
     flex-direction: row;
     overflow: scroll;
     width: 100% !important;
-    height: 370px !important;
+    height: auto !important;
     margin-left: auto;
     margin-right: auto;
 }
@@ -210,7 +212,7 @@ input[type=date] {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 20px;
+
     padding-left:10px;
 
 }
@@ -220,8 +222,8 @@ input[type=date] {
     height: 50px;
 }
 .photo{
-    width: 200px !important;
-    height: auto;
+    width: 300px !important;
+    height: 200px !important;
 }
 .stars{
     margin-top: -10%;
@@ -253,103 +255,63 @@ input[type=date] {
 .voyage{
     display: flex;
     flex-direction: column;
-    width: 100% !important;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80% !important;
+    overflow: scroll !important;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     margin-bottom: 40px;
-    padding-left: 0% !important;
+    padding-left: 10% !important;
 }
 
-.voyageTitle H1{
-    font-size: 24px;       
+.TitreVoyage H1{
+    width: 90% !important;
+    font-size: 24px; 
+    padding-left: 10% !important;      
 }
-
-
-.voyageContenu{
+.voyageContenu {
+    width: 250% !important;
     margin-top:25px;
     display: flex;
     flex-direction: row;
-    overflow: scroll;
     justify-content: space-between;
+
 }
-
-/* FIN section Voyager avec airBnB*/
-
-/* Début section Assistance*/
-
-.Assistance {
+.contenuColonne {
     padding-left: 10px;
     padding-right: 30px;
 }
-
-.Assistance img {
-    width: 35px;
-    height:35px;
-}
-.Assistance p {
-    font-size: 14px;
-}
-.Assistance H3 {
-    font-size: 16px;
-}
-/* Fin section Assistance*/
-/* Début section Charte*/
-.Charte {
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-.Charte img {
-    width: 35px;
-    height:35px;
-}
-.Charte p {
-    font-size: 14px;
-}
-.Charte H3 {
-    font-size: 16px;
-}
-/* Fin section Charte*/
-
-/* Début section Etoiles*/
-.Etoiles {
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-.Etoiles img {
+.contenuColonne img {
     width: 35px;
     height: 35px;
 }
-.Etoiles p {
+.contenuColonne p {
     font-size: 14px;
 }
-.Etoiles H3 {
+.contenuColonne H3 {
     font-size: 16px;
 }
-/* Fin section Etoiles*/
+/* FIN section Voyager avec airBnB*/
 
 
 /*Début de la section: Les offres*/
 
 .offer{
-    width: 100% !important;
-    margin-left: auto;
-    margin-right: auto;
+    width: 85% !important;
     display: flex;
     flex-direction: column;
     height: auto !important;
-    padding-left: 0% !important;
+    padding-left: 10% !important;
 }
 .offreGlobal {
     display: flex;
     flex-direction: row;
-    overflow: scroll;
-    justify-content: space-between;
+    overflow: scroll !important;
+    justify-content: space-between !important;
 }
 
 .offre {
     width: 100%;
+    padding-right: 5% !important;
 
 }
 
@@ -395,7 +357,11 @@ input[type=date] {
     display: flex;
     flex-direction: column;
     height: auto !important;
-    padding-left: 0% !important;
+    padding-left: 10% !important;
+}
+.availability > h4{
+    width: 50% !important;
+    margin-top: -10px !important;
 }
 
 .ajout h2{
@@ -410,66 +376,19 @@ input[type=date] {
 }
 
 hr {
-    margin-top: 25px;
-    border-color: rgb(218, 218, 218);
-    border-top:1px;
+    width: 90% !important;
 }
 
 /*Fin de la section Quand voyagez vous?*/
 
 /*Début de la section LIENS*/
 .links {
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    overflow: scroll;
-    height: 0% !important;
+   display: none !important;
 }
-.liens > ul > a {
-    text-decoration: none;
-    color: #303030;
-
-}
-
-.socialConditions {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    height: 0% !important;
-}
-
-.conditions {
-    margin-top: 10px;
-}
-conditions > ul {
-    line-height:normal;
-}
-.conditions > ul > a {
-    text-decoration: none;
-    color: #303030;
-}
-
-.logoSocial i {
-    text-decoration: none;
-    color: #303030;
-    font-size: 20px;
-}
-.logoSocial {
-    margin-left: 0px !important;
-    margin-top:-10px;
-}
-
-
-
-
 /*Fin de la section LIENS*/
 
 .footer {
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto;
+    width: 80% !important;
     display: flex;
     flex-direction: row;
     height: 0% !important;
@@ -477,15 +396,16 @@ conditions > ul {
 }
 .footer p{
     margin-top:20px;
-    margin-left: 30px;
+    margin-left: 10% !important;
 
 }
 .footer i{
     font-size: 17px;
+    margin-left: -10% !important;
 }
 
 .eur {
-    margin-left: 10% ! important;
+    margin-left: 1% ! important;
 }
 
 
@@ -556,6 +476,10 @@ color: rgb(71, 71, 71);
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+hr {
+width: 52%;
+margin-left:0px;
+}
 /* Début du bandeau d'introduction*/
 .fab{
     position: relative;
@@ -571,18 +495,17 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     background-size: auto;
     color: rgb(255, 255, 255);
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    padding-bottom: 0,5%;
 }
 .intro h1 {
     font-size: 2.5em;
-    margin-left: 14%;
+    padding-left: 14.3%;
     width: 58%;
 }
 .boutons {
-    width: 65%;
-    margin-left: 10%;
-    margin-right: auto;
+    width: 100%;
+    padding-left: 12%;
     display: flex;
     flex-direction: row;
 }
@@ -646,33 +569,35 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 /* Début de la partie Réservation*/
 .reserve {
-    width: 68%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    padding-left: 15%;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
  }
 .reserveTitle {
+    width: 100%;
     font-size: 1em;
     margin-top: 10px;
-    margin-bottom: -100px;
-    width: 68%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 150px;
+    margin-bottom: -155px;
+    padding-left: 15%;
+    height: 200px;
 }
 .reserve p {
     margin-bottom: 2%;
 }
 input[type=text] {
-    padding: 14px 20px;
-    margin-right:10px;
-    margin-top:10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: 14px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-radius:3px;
+    border-radius: 3px;
   }
-input[type=date] {
+  input[type=date] {
     padding: 12px 20px;
     margin-right:-6px;
     margin-top:10px;
@@ -680,29 +605,32 @@ input[type=date] {
     border: 1px solid #ccc;
     border-radius:3px;
   }
+
 .person {
-    margin-top:0.6%;
     margin-left: 15px;
 }
 .numberOfPersons {
-    line-height: 50 px;
-    padding: 13px 20px;
-    margin: 10px 0;
-    box-sizing: border-box;
+    width: 150px;
+}
+.numberOfPersons select{
+    width: 150px;
+    height: 43px;
+    margin-top:15px;
     border: 1px solid #ccc;
-    border-radius:3px;
     background-color: white;
-}  
-.search {
-    padding-top: 8%;
-    padding-bottom: 7%;
+}
+.search p{
+    padding-bottom: 25px;
+}
+.search a{
+    text-decoration: none;
+    margin-top: 14px;
+    margin-left: 10px;
+    padding-top: 6%;
+    padding-bottom: 6%;
     padding-left: 25%;
     padding-right: 25%;
-    margin-right: 3%;
-    margin-top: 9%;
-    margin-left: 8%;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border-radius: 7px;
     background-color: #FF5A5F;
     font-weight: bolder;
     color: white;
@@ -715,13 +643,9 @@ input[type=date] {
 
 .feedback {
     display: flex;
-    flex-direction:column;
-    color: rgb(57, 58, 58);
-    width: 68%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    width: 100%;
+    padding-left: 15%;
 }
 .introFeedback {
     display: flex;
@@ -746,40 +670,36 @@ input[type=date] {
     width: 25px;
     height: auto;
 }
-
+/* DÉBUT LOGEMENT */
 .logementContainer {
     display: flex;
     flex-direction: row;
     width: 1080px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 500px;
 }
-/* DÉBUT LOGEMENT */
 .logement {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 20px;
-    padding-left:10px;
+    height: 466px;
 }
 .logement p{
     margin-top:-30%;
     padding-right: 15px;
+
 }
 .photo{
-    width: 100%;
-    height: auto;
+    width: 327px;
+    height: 218px;
 }
 .stars{
     margin-top: -30%;
     padding-top: 10px;
-    padding-left: 10px;
     width: 100px;
     height: 16px;
 }
 .portraitContainer {
-    margin-top:-30%;
+    margin-top:-22%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -801,92 +721,51 @@ input[type=date] {
 .voyage{
     display: flex;
     flex-direction: column;
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 91%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     margin-bottom: 40px;
-    padding-left: 50px;
+    padding-left: 15%;
 }
 
-.voyageTitle H1{
-    font-size: 24px;       
+.TitreVoyage H1{
+    font-size: 24px; 
+    padding-left: 15%;      
 }
 
-
-.voyageContenu{
+.voyageContenu {
+    width: 50%;
     margin-top:25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
+.contenuColonne {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.contenuColonne img {
+    width: 35px;
+    height: 35px;
+}
+.contenuColonne p {
+    font-size: 14px;
+}
+.contenuColonne H3 {
+    font-size: 16px;
+}
 /* FIN section Voyager avec airBnB*/
 
-/* Début section Assistance*/
-
-.Assistance {
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-.Assistance img {
-    width: 35px;
-    height:35px;
-}
-.Assistance p {
-    font-size: 14px;
-}
-.Assistance H3 {
-    font-size: 16px;
-}
-/* Fin section Assistance*/
-/* Début section Charte*/
-.Charte {
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-.Charte img {
-    width: 35px;
-    height:35px;
-}
-.Charte p {
-    font-size: 14px;
-}
-.Charte H3 {
-    font-size: 16px;
-}
-/* Fin section Charte*/
-
-/* Début section Etoiles*/
-.Etoiles {
-    padding-left: 10px;
-    padding-right: 30px;
-}
-
-.Etoiles img {
-    width: 35px;
-    height:35px;
-}
-.Etoiles p {
-    font-size: 14px;
-}
-.Etoiles H3 {
-    font-size: 16px;
-}
-/* Fin section Etoiles*/
 
 
 /*Début de la section: Les offres*/
 
-.offer{
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
+.offer {
+    width: 1050px;
     display: flex;
     flex-direction: column;
     height: 500px;
-    padding-left: 50px;
+    padding-left: 15%;
 }
 .offreGlobal {
     display: flex;
@@ -935,13 +814,10 @@ input[type=date] {
 
 /*Début de la section Quand voyagez vous?*/
 .availability{
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     height: 200px;
-    padding-left: 50px;
+    padding-left: 15%;
 }
 
 .ajout h2{
@@ -965,17 +841,20 @@ hr {
 
 /*Début de la section LIENS*/
 .links {
-    width: 1080px;
-    margin-left: 160px;
-    margin-right: auto;
     display: flex;
     flex-direction: row;
-    height: 300px;
+    width: 44%;
+    justify-content: space-between;
+    height: 185px;
+    padding-left: 13.5%;
 }
 .liens > ul > a {
     text-decoration: none;
     color: #303030;
 
+}
+.liens > ul{
+    padding: 0 0 0 0;
 }
 
 .socialConditions {
@@ -1012,13 +891,10 @@ conditions > ul {
 /*Fin de la section LIENS*/
 
 .footer {
-    width: 1080px;
-    margin-left: 160px;
-    margin-right: auto;
     display: flex;
     flex-direction: row;
     height: 50px;
-    padding-left: 0px;
+    padding-left: 15%;
 }
 .footer p{
     margin-top:20px;
