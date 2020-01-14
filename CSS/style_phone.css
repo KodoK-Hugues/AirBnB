@@ -1,0 +1,414 @@
+@media only screen and (max-width: 600px) {
+
+    /* Début du bandeau d'introduction*/
+.fab{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-image: url(pictures/paysage.jpg);
+    background-size: auto !important;
+    color: rgb(255, 255, 255);
+
+}
+.intro h1 {
+    font-size: 2.5em;
+    margin-left: 0% !important;
+}
+.boutons {
+    width: 100% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    display: flex;
+    flex-direction: column !important;
+}
+.boutonExplorer button {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
+    background-color: white;
+    border-color: rgb(22, 4, 3);
+    border-width: 1px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(22, 4, 3);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left:0% !important;
+  }
+  .boutonExplorer p {
+    width: 50% !important;
+    font-size: 1.2em;
+    margin-left: 0% !important;
+    margin-bottom: 2%;
+    margin-right: -18%;
+  }
+  .boutonAcceuillir button{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left:0% !important;
+  }
+  .boutonAcceuillir p {
+    width: 100% !important;
+    font-size: 1.2em;
+    margin-left: 0% !important;
+    margin-bottom: 3%;
+}
+.copyBackground p {
+    padding-left:1%;
+    padding-top: 35px;
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: lightgray;
+    margin-left: 5% !important;
+}
+
+/* Fin du bandeau d'introduction */
+
+/* Début de la partie Réservation*/
+.reserve {
+    width: 65% !important;
+    display: flex;
+    flex-direction: column !important;
+    padding-left: 8% !important;
+ }
+.reserveTitle {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+    width: 85% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25% !important;
+    padding-left:0% !important;
+    padding-right:0% !important;
+}
+.reserve p {
+    margin-bottom: 2% !important;
+}
+input[type=text] {
+    padding: 14px 20px;
+    margin-right:10px;
+    margin-top:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius:3px;
+  }
+input[type=date] {
+    padding: 12px 20px;
+    margin-right:-6px;
+    margin-top:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    background-color: white !important;
+  }
+.person {
+    margin-top:0.6%;
+    margin-left: 0% !important;
+}
+.numberOfPersons {
+    width: 150px;
+}
+.numberOfPersons select{
+    width: 150px;
+    height: 43px;
+    margin-top:15px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.search a{
+    text-decoration: none;
+    padding-top: 8%;
+    padding-bottom: 7%;
+    padding-left: 25% !important;
+    padding-right: 25%;
+    margin-right: 3%;
+    margin-top: 0% !important ;
+    margin-left: 0% !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #FF5A5F;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.1em;
+}
+
+.search p{
+    padding-bottom: 5px !important;
+}
+/*Fin de la partie Réservation*/
+
+
+/* section Belgique : ce que les autres voyageurs ont pensé de leur logement*/
+
+.feedback {
+    display: flex;
+    flex-direction:column;
+    color: rgb(57, 58, 58);
+    width: 84% !important;
+    height: 100% !important;
+    margin-left: -9% !important;
+    margin-right: 0% !important;
+    margin-bottom: 3% !important;
+    background-color: rgb(255, 255, 255);
+}
+.introFeedback {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.titreFeedback h1 {
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px !important;
+}
+.titreFeedback p {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logo img {
+    margin-top: 125px !important;
+    margin-left: 10%;
+    width: 25px;
+    height: auto;
+}
+
+.logementContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-left:10px;
+
+}
+.logement p{
+    margin-top:-23% !important;
+    padding-right: 15px;
+    height: 50px;
+}
+.photo{
+    width: 300px !important;
+    height: 200px !important;
+}
+.stars{
+    margin-top: -10%;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 16px;
+}
+.portraitContainer {
+    margin-top:0% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.portraitContainer h5 {
+    margin-left: 30px;
+}
+.portrait{
+    margin-top:-10%;
+    margin-top:-15%;
+    width: 25%;
+
+}
+
+/*Fin section logement*/
+
+/* section Voyager avec airRnB*/
+
+.voyage{
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
+    overflow: scroll !important;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-bottom: 40px;
+    padding-left: 10% !important;
+}
+
+.TitreVoyage H1{
+    width: 90% !important;
+    font-size: 24px;
+    padding-left: 10% !important;
+}
+.voyageContenu {
+    width: 250% !important;
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.contenuColonne {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.contenuColonne img {
+    width: 35px;
+    height: 35px;
+}
+.contenuColonne p {
+    font-size: 14px;
+}
+.contenuColonne H3 {
+    font-size: 16px;
+}
+/* FIN section Voyager avec airBnB*/
+
+
+/*Début de la section: Les offres*/
+
+.offer{
+    width: 85% !important;
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+    padding-left: 10% !important;
+}
+.offreGlobal {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll !important;
+    justify-content: space-between !important;
+}
+
+.offre {
+    width: 100%;
+    padding-right: 5% !important;
+
+}
+
+.offre > img {
+    width: 246px;
+    height: auto;
+    margin-bottom: -15px;
+}
+
+.offre > H6 {
+    font-size: 12px;
+    color: grey;
+}
+
+.offre > H5 {
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.cotation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cotation > img {
+    margin-right:15px;
+    width: 50px;
+    height: 10px;
+}
+.cinqCents a{
+    text-decoration: none;
+    color: #008489;
+}
+
+/*Fin de la section: Les offres*/
+
+/*Début de la section Quand voyagez vous?*/
+.availability{
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+    padding-left: 10% !important;
+}
+.availability > h4{
+    width: 50% !important;
+    margin-top: -10px !important;
+}
+
+.ajout h2{
+    margin-bottom: -20px;
+}
+.ajout a{
+    text-decoration: none;
+    background-color: #008489;
+    color: white;
+    padding: 10px;
+    border-radius:3px;
+}
+
+hr {
+    width: 90% !important;
+}
+
+/*Fin de la section Quand voyagez vous?*/
+
+/*Début de la section LIENS*/
+.links {
+   display: none !important;
+}
+/*Fin de la section LIENS*/
+
+.footer {
+    width: 80% !important;
+    display: flex;
+    flex-direction: row;
+    height: 0% !important;
+    padding-left: 0px;
+}
+.footer p{
+    margin-top:20px;
+    margin-left: 10% !important;
+
+}
+.footer i{
+    font-size: 17px;
+    margin-left: -10% !important;
+}
+
+.eur {
+    margin-left: 1% ! important;
+}
+
+
+}
+
+/*fin de la version pour téléphone*/

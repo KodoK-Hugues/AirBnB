@@ -1,0 +1,443 @@
+/* dbut de la version ecran*/
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(71, 71, 71);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* hr {
+    width: 85%;
+} */
+/* Début du bandeau d'introduction*/
+.fab{
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../pictures/paysage.jpg);
+    background-size: auto;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0,5%;
+}
+.intro h1 {
+    font-size: 2.5em;
+    padding-left: 14.3%;
+    /* width: 58%; */
+}
+.boutons {
+    padding-left: 12%;
+    display: flex;
+    flex-direction: row;
+}
+.boutonExplorer button {
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
+    background-color: white;
+    border-color: rgb(22, 4, 3);
+    border-width: 1px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(22, 4, 3);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left:18%;
+  }
+  .boutonExplorer p {
+    font-size: 1.2em;
+    margin-left: 18%;
+    margin-bottom: 2%;
+    margin-right: -18%;
+  }
+  .boutonAcceuillir button{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-left:35%;
+  }
+  .boutonAcceuillir p {
+    font-size: 1.2em;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+.copyBackground p {
+    padding-left:1%;
+    padding-top: 35px;
+    font-size: 0.7em;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+/* Fin du bandeau d'introduction */
+
+/* Début de la partie Réservation*/
+.reserve {
+    padding-left: 15%;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+ }
+.reserveTitle {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: -155px;
+    padding-left: 15%;
+    height: 200px;
+}
+.reserve p {
+    margin-bottom: 2%;
+}
+input[type=text] {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 10px;
+    margin-top: 14px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  input[type=date] {
+    padding: 12px 20px;
+    margin-right:-6px;
+    margin-top:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius:3px;
+  }
+
+.person {
+    margin-left: 15px;
+}
+.numberOfPersons {
+    width: 150px;
+}
+.numberOfPersons select{
+    width: 150px;
+    height: 43px;
+    margin-top:15px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.search p{
+    padding-bottom: 25px;
+}
+.search a{
+    text-decoration: none;
+    margin-top: 14px;
+    margin-left: 10px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 25%;
+    padding-right: 25%;
+    border-radius: 7px;
+    background-color: #FF5A5F;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.1em;
+}
+/*Fin de la partie Réservation*/
+
+
+/* section Belgique : ce que les autres voyageurs ont pensé de leur logement*/
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.introFeedback {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.titreFeedback h1 {
+    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
+}
+.titreFeedback p {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.logo img {
+    margin-top: 60px;
+    margin-left: 10%;
+    width: 25px;
+    height: auto;
+}
+/* DÉBUT LOGEMENT */
+.logementContainer {
+    display: flex;
+    flex-direction: row;
+    /* width: 85%; */
+    height: 500px;
+}
+.logement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 466px;
+}
+.logement p{
+    margin-top:-30%;
+    padding-right: 15px;
+
+}
+.photo{
+    width: 327px;
+    height: 218px;
+}
+.stars{
+    margin-top: -30%;
+    padding-top: 10px;
+    width: 100px;
+    height: 16px;
+}
+.portraitContainer {
+    margin-top:-22%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.portraitContainer h5 {
+    margin-left: 30px;
+}
+.portrait{
+    margin-top:-10%;
+    margin-top:-15%;
+    width: 25%;
+
+}
+
+/*Fin section logement*/
+
+/* section Voyager avec airRnB*/
+
+.voyage{
+    display: flex;
+    flex-direction: column;
+    /* width: 91%; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.TitreVoyage H1{
+    font-size: 24px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.voyageContenu {
+    /* width: 80%; */
+    margin-top:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contenuColonne {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.contenuColonne img {
+    width: 35px;
+    height: 35px;
+}
+.contenuColonne p {
+    font-size: 14px;
+}
+.contenuColonne H3 {
+    font-size: 16px;
+}
+/* FIN section Voyager avec airBnB*/
+
+
+
+/*Début de la section: Les offres*/
+
+.offer {
+    /* width: 1050px; */
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.offreGlobal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offre {
+    width:246px;
+
+}
+
+.offre > img {
+    width: 246px;
+    height: auto;
+    margin-bottom: -15px;
+}
+
+.offre > H6 {
+    font-size: 12px;
+    color: grey;
+}
+
+.offre > H5 {
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.cotation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cotation > img {
+    margin-right:15px;
+    width: 50px;
+    height: 10px;
+}
+.cinqCents a{
+    text-decoration: none;
+    color: #008489;
+}
+
+/*Fin de la section: Les offres*/
+
+/*Début de la section Quand voyagez vous?*/
+.availability{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding-left: 15%;
+}
+
+.ajout h2{
+    margin-bottom: -20px;
+}
+.ajout a{
+    text-decoration: none;
+    background-color: #008489;
+    color: white;
+    padding: 10px;
+    border-radius:3px;
+}
+
+hr {
+    margin-top: 25px;
+    border-color: rgb(218, 218, 218);
+    border-top:1px;
+}
+
+/*Fin de la section Quand voyagez vous?*/
+
+/*Début de la section LIENS*/
+.links {
+    display: flex;
+    flex-direction: row;
+    /* width: 85%; */
+    height: 185px;
+    padding-left: 13.5%;
+}
+.liens > ul > a {
+    text-decoration: none;
+    color: #303030;
+
+}
+.liens > ul{
+    padding: 0 0 0 0;
+}
+
+.socialConditions {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 300px;
+}
+
+.conditions {
+    margin-top: 10px;
+}
+conditions > ul {
+    line-height:normal;
+}
+.conditions > ul > a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.logoSocial i {
+    text-decoration: none;
+    color: #303030;
+    font-size: 20px;
+}
+.logoSocial {
+    margin-left: -88px;
+    margin-top:-10px;
+}
+
+
+
+
+/*Fin de la section LIENS*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding-left: 15%;
+}
+.footer p{
+    margin-top:20px;
+    margin-left: 30px;
+
+}
+.footer i{
+    font-size: 17px;
+}
+
+.eur {
+    margin-left: 500px;
+}
