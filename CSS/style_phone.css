@@ -194,7 +194,7 @@ input[type=date] {
 
 .logo img {
     margin-top: 125px !important;
-    margin-left: 10%;
+    margin-left: 0%;
     width: 25px;
     height: auto;
 }
@@ -260,13 +260,13 @@ input[type=date] {
     /* margin-left: auto; */
     /* margin-right: auto; */
     margin-bottom: 40px;
-    padding-left: 10% !important;
+    padding-left: 0% !important;
 }
 
 .TitreVoyage H1{
     /* width: 90% !important; */
     font-size: 24px;
-    padding-left: 10% !important;
+    padding-left: 0% !important;
 }
 .voyageContenu {
     /* width: 250% !important; */
@@ -300,7 +300,7 @@ input[type=date] {
     display: flex;
     flex-direction: column;
     height: auto !important;
-    padding-left: 10% !important;
+    padding-left: 0% !important;
 }
 .offreGlobal {
     display: flex;
@@ -352,12 +352,12 @@ input[type=date] {
 /*Début de la section Quand voyagez vous?*/
 .availability{
     /* width: 100% !important; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     display: flex;
     flex-direction: column;
     height: auto !important;
-    padding-left: 10% !important;
+    padding-left: 0% !important;
 }
 .availability > h4{
     width: 50% !important;
@@ -395,16 +395,16 @@ hr {
 }
 .footer p{
     margin-top:20px;
-    margin-left: 10% !important;
+    margin-left: 0% !important;
 
 }
 .footer i{
     font-size: 17px;
-    margin-left: -10% !important;
+    margin-left: 0% !important;
 }
 
 .eur {
-    margin-left: 1% ! important;
+    margin-left: 0% ! important;
 }
 
 
