@@ -4,14 +4,14 @@
 .fab{
     position: relative;
     top: 20px;
-    left: 20px;
+    padding-left:20px;
     font-size: 40px;
 }
 
 .intro {
     display: flex;
     flex-direction: column;
-    background-image: url(pictures/paysage.jpg);
+    background-image: url(../pictures/paysage.jpg);
     background-size: auto !important;
     color: rgb(255, 255, 255);
 
@@ -21,15 +21,15 @@
     margin-left: 0% !important;
 }
 .boutons {
-    width: 100% !important;
+    /* width: 100% !important;
     margin-left: 0% !important;
-    margin-right: 0% !important;
+    margin-right: 0% !important; */
     display: flex;
     flex-direction: column !important;
 }
 .boutonExplorer button {
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    /* padding-left: 10% !important;
+    padding-right: 10% !important; */
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 1.2em;
@@ -169,11 +169,11 @@ input[type=date] {
     display: flex;
     flex-direction:column;
     color: rgb(57, 58, 58);
-    width: 84% !important;
+    /* width: 84% !important;
     height: 100% !important;
     margin-left: -9% !important;
     margin-right: 0% !important;
-    margin-bottom: 3% !important;
+    margin-bottom: 3% !important; */
     background-color: rgb(255, 255, 255);
 }
 .introFeedback {
@@ -218,7 +218,7 @@ input[type=date] {
 }
 .logement p{
     margin-top:-23% !important;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     height: 50px;
 }
 .photo{
@@ -243,7 +243,7 @@ input[type=date] {
 }
 .portrait{
     margin-top:-10%;
-    margin-top:-15%;
+    /* margin-top:-15%; */
     width: 25%;
 
 }
@@ -255,7 +255,7 @@ input[type=date] {
 .voyage{
     display: flex;
     flex-direction: column;
-    width: 80% !important;
+    /* width: 80% !important; */
     overflow: scroll !important;
     /* margin-left: auto; */
     /* margin-right: auto; */
@@ -264,12 +264,12 @@ input[type=date] {
 }
 
 .TitreVoyage H1{
-    width: 90% !important;
+    /* width: 90% !important; */
     font-size: 24px;
     padding-left: 10% !important;
 }
 .voyageContenu {
-    width: 250% !important;
+    /* width: 250% !important; */
     margin-top:25px;
     display: flex;
     flex-direction: row;
@@ -296,7 +296,7 @@ input[type=date] {
 /*Début de la section: Les offres*/
 
 .offer{
-    width: 85% !important;
+    /* width: 85% !important; */
     display: flex;
     flex-direction: column;
     height: auto !important;
@@ -310,7 +310,7 @@ input[type=date] {
 }
 
 .offre {
-    width: 100%;
+    /* width: 100%; */
     padding-right: 5% !important;
 
 }
@@ -351,7 +351,7 @@ input[type=date] {
 
 /*Début de la section Quand voyagez vous?*/
 .availability{
-    width: 100% !important;
+    /* width: 100% !important; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -388,11 +388,10 @@ hr {
 /*Fin de la section LIENS*/
 
 .footer {
-    width: 80% !important;
+    /* width: 80% !important; */
     display: flex;
     flex-direction: row;
     height: 0% !important;
-    padding-left: 0px;
 }
 .footer p{
     margin-top:20px;
